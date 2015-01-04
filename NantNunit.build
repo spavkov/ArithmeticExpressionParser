@@ -1,0 +1,10 @@
+<project>
+   <echo message="Before running tests"/>
+
+   <nunit2 failonerror="false" verbose="false">
+       <formatter outputdir="${nant.project.basedir}"
+                  usefile="true" type="Xml" extension=".xml"/>
+       <test assemblyname="${nant.project.basedir}\ArithmeticExpressionParser.Tests\bin\debug\ArithmeticExpressionParser.Tests.dll"/>
+   </nunit2>
+
+</project>
