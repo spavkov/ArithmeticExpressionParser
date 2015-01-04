@@ -34,7 +34,7 @@ namespace ArithmeticExpressionParser.Tests
         [TestCase("((9-5)+(2+3)+(1+1))", ExpectedResult = 11)]
         [TestCase("(((34-17)*8)+(2*7))", ExpectedResult = 150)]
         [TestCase("(33/3-9)*2", ExpectedResult = 4)]
-        [TestCase("20-3*8/2+(28*7)", ExpectedResult = 196)]
+        [TestCase("20-3*8/2+(28*7)", ExpectedResult = 204)]
         [TestCase("-1", ExpectedResult = -1)]
         [TestCase("-(2+3)", ExpectedResult = -5)]
         [TestCase("-(5-10)", ExpectedResult = 5)]
